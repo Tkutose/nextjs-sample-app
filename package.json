@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@what3words/api": "^4.0.5",
     "autoprefixer": "^10.4.2",
     "next": "12.1.0",
     "postcss": "^8.4.8",
