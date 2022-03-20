@@ -26,13 +26,9 @@ const PageWithJSbasedForm = () => {
     router.push({
       pathname: 'result',
       query: {
-        address: result.words,
-        url: result.map
+        address: result.words
       }
     })
-
-    // alert(`結果:${result.words}`)
-
   }
 
   return (
