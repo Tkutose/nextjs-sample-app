@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './header'
+import Title from './title'
 
 import { NextPage } from 'next'
 type Props = {
