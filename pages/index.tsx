@@ -10,8 +10,8 @@ const PageWithJSbasedForm = () => {
 
   const latRef = useRef(null)
   const lngRef = useRef(null)
-  const latSample = 34.645766
-  const lngSample = 133.889965
+  const latSample = 34.645847
+  const lngSample = 133.8899
 
   // submitをハンドリング
   const handleSubmit = async (event) => {
