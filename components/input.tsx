@@ -1,7 +1,7 @@
 
 type InputInfo = { placeHolder: string, name: string, numRef}
 
-export default function input( info: InputInfo ) {
+export default function Input( info: InputInfo ) {
     return (
         <div className=" relative ">
             <label className="text-gray-700">

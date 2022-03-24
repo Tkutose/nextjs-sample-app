@@ -1,4 +1,4 @@
-const explain = () => (
+const Explain = () => (
     <div className="shadow-lg rounded-2xl w-8/12 mx-auto mt-4 p-8 bg-gray-50 dark:bg-gray-800 text-gray-700">
         <div className="">
             <p className="text-2xl mb-6 -ml-2">what is what3words</p>
@@ -15,4 +15,4 @@ const explain = () => (
 )
 
 
-export default explain
+export default Explain

@@ -1,8 +1,7 @@
-import Link from "next/link"
 import { useRouter } from "next/router"
 import Layout from "../components/layout"
 
-const result = () => {
+const Result = () => {
     const router = useRouter()
 
     const top = "https://what3words.com/"
@@ -27,4 +26,4 @@ const result = () => {
     )
 }
 
-export default result
+export default Result
