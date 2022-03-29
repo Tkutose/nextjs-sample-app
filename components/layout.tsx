@@ -12,12 +12,11 @@ const Layout: NextPage<Props> = ({ children, home }: Props) => (
         <Head>
             <title>sample next.js app</title>
         </Head>
-        <Header />
         <main>
             {children}
         </main>
     </div>
-    )
+    )   
 
 
 export default Layout

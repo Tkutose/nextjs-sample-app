@@ -29,7 +29,7 @@ const PageWithJSbasedForm = () => {
 
     // cliant側で転送
     router.push({
-      pathname: 'result',
+      pathname: '../old/result',
       query: {
         address: result.words
       }
